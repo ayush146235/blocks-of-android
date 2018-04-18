@@ -10,11 +10,15 @@ When we specify the exact activity class \(or component\) that should handle the
 
 Here is the sample code for that:
 
-```text
+{% code-tabs %}
+{% code-tabs-item title="MainActivity.java" %}
+```java
 Intent i =newIntent();
 i.setClass(getApplicationContext(), DetailedActivity.class);
 startActivity(i);
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Here in this code we created an intent and set the DetailedActivity class as the class, which should handle the intent. startActivity function is used to pass the intent to Android and start the transition. Instead of using setClass function, you could have used the setComponent, setClassName functions as well. To make this work, you would need to create a DetailedActivity class and add that activity to your manifest.xml file.
 
@@ -41,7 +45,7 @@ Here are few examples of implicit Intents:
 
 Opening a link:
 
-```text
+```java
 Intent i =newIntent();
 i.setAction(Intent.ACTION_VIEW);
 Uri a = Uri.parse("http://www.google.com");
