@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [1. Project Structure](1.-project-structure.md)
-* [2. Basic Widgets](2.-basic-widgets.md)
-* [3. List View](3.-list-view/README.md)
-  * [3.1 Custom Adapter](3.-list-view/3.1-custom-adapter.md)
+* [1. Project Structure](01-project-structure.md)
+* [2. Basic Widgets](02-basic-widgets.md)
+* [3. List View](03-list-view/README.md)
+  * [3.1 Custom Adapter](03-list-view/01-custom-adapter.md)
 * [4. Intents](4.-intents/README.md)
   * [4.1 Implicit and Explicit intents](4.-intents/4.1-implicit-and-explicit-intents.md)
   * [4.2 Assignments](4.-intents/4.2-assignments.md)
