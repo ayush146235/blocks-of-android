@@ -34,7 +34,7 @@ The basic structure of an Android Application built using Gradle is shown below.
 
     ![](.gitbook/assets/gradle%20%281%29.png)
 
-    ![](.gitbook/assets/gradlewrapper.png)
+    ![gradle-wrapper.properties](.gitbook/assets/gradlewrapper.png)
 
     [File Link](https://github.com/coding-blocks-ebooks/blocks-of-android/tree/8e6639b85aee3a2bb788ec0c97cd75c14b264f72/01-project-structure/AndroidDemo/gradle/wrapper/gradle-wrapper.properties)
 
@@ -56,11 +56,13 @@ The basic structure of an Android Application built using Gradle is shown below.
 
     This is the default application/module folder named as 'app'. It has all the folders and files associated with our apllication.
 
-    ![](.gitbook/assets/app.png)
+    ![directory strucutre](.gitbook/assets/app.png)
 
     * [**build.gradle**](https://github.com/coding-blocks-ebooks/blocks-of-android/tree/8e6639b85aee3a2bb788ec0c97cd75c14b264f72/01-project-structure/AndroidDemo/app/build.gradle)
 
-      ![](.gitbook/assets/appgradle%20%281%29.png)
+      ![build.gradle](.gitbook/assets/appgradle%20%281%29.png)
+
+
 
       This is the Gradle file pertaining to the module. Gradle files are written in a language known as Groovy. The various components of the file are described below -
 
